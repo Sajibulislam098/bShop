@@ -1,0 +1,79 @@
+.top-collection {
+	padding: 55px 0px;
+
+	.item {
+		height: 260px;
+		width: 265px;
+		margin: 0px 10px 10px 0px;
+		position: relative;
+		transition: 0.3s all ease-in-out;
+		overflow: hidden;
+		cursor: pointer;
+		&::after {
+			position: absolute;
+			content: "";
+			left: 0;
+			top: 0;
+			background-color: gray;
+			height: 100%;
+			width: 100%;
+			opacity: 0;
+			// z-index: -1;
+		}
+		.item-bg {
+			height: 100%;
+			width: 100%;
+			background-size: cover;
+			background-position: center;
+		}
+		.item-title {
+			font-size: 22px;
+			color: #000;
+			font-weight: 400;
+			padding: 20px;
+			transition: 0.3s all ease-in-out;
+			display: block;
+			position: absolute;
+			top: 10px;
+		}
+		span {
+			font-size: 14px;
+			display: block;
+			color: gray;
+			line-height: 24px;
+			font-weight: 300;
+			opacity: 0;
+			transition: 0.3s all ease-in-out;
+		}
+		.item-footer {
+			position: absolute;
+			width: 90%;
+			display: flex;
+			justify-content: space-between;
+			padding: 20px;
+			left: 0;
+			bottom: -30px;
+			opacity: 0;
+			transition: 0.3s all ease-in-out;
+		}
+		.item-count {
+			display: none;
+		}
+		&:hover {
+			&::after {
+				opacity: 0.1;
+			}
+
+			h2 {
+				padding-top: 0;
+			}
+			.item-footer {
+				opacity: 1;
+				bottom: 0;
+			}
+			span {
+				opacity: 1;
+			}
+		}
+	}
+}

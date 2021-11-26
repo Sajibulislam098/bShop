@@ -1,0 +1,24 @@
+.custom-btn {
+	margin: 15px 0;
+	background: rgb(14, 13, 13);
+	color: #ffff;
+	padding: 10px 30px;
+	min-width: 120px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	border: none;
+	transition: 0.5s all;
+	&:hover {
+		background: #000000;
+	}
+}
+.btnGoogleAuth {
+	background: #4285f4;
+	transition: 0.4s all ease-in-out;
+	opacity: 0.9;
+	&:hover {
+		background: #055eee;
+	}
+}

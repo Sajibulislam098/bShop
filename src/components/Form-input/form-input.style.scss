@@ -1,0 +1,19 @@
+.group {
+	position: relative;
+	margin: 25px 0px;
+	.form-input {
+		background: none;
+		border-color: white;
+		color: #000000;
+		font-size: 14px;
+		padding: 10px 0px;
+		display: block;
+		width: 100%;
+		border: none;
+		border-radius: 0;
+		border-bottom: 1px solid #b3b3b3;
+		margin-inline-start: 25px 0;
+		outline: none;
+		min-width: 300px;
+	}
+}

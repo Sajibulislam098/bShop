@@ -1,0 +1,37 @@
+.header {
+	position: relative;
+	width: 1142px;
+	margin: 0 auto;
+	height: 120px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	a {
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.logo {
+		span {
+			color: #3e3e3e;
+			font-size: 24px;
+			font-weight: 700;
+			letter-spacing: 4px;
+		}
+	}
+	.options {
+		display: flex;
+		padding: 10px 15px;
+		cursor: pointer;
+		a {
+			display: inline-block;
+			font-size: 14px;
+			font-weight: 400;
+			color: gray;
+			// margin-left: 40px;
+		}
+	}
+	.option {
+		margin-left: 40px;
+		color: gray;
+	}
+}

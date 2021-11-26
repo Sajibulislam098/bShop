@@ -1,0 +1,19 @@
+.shopping-icon {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.icon {
+		height: 24px;
+		width: 24px;
+	}
+	.item-count {
+		position: absolute;
+		top: 20%;
+		font-size: 10px;
+		line-height: 22px;
+	}
+	.plus-icon {
+		position: absolute;
+	}
+}

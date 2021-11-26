@@ -1,0 +1,57 @@
+.hero-slide {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5% 10%;
+	.slide-img {
+		height: 500px;
+		width: 40%;
+		img {
+			object-fit: contain;
+			height: 100%;
+			width: 100%;
+			transition: all fade;
+		}
+	}
+	.slide-content {
+		margin-top: -200px;
+		h1 {
+			font-weight: 300;
+			font-size: 64px;
+			color: #424242dd;
+		}
+		h4 {
+			color: dimgrey;
+			font-weight: 400;
+			font-size: 24px;
+		}
+		.price {
+			font-size: 28px;
+			color: gray;
+			strike {
+				margin-right: 15px;
+				display: inline-block;
+				font-size: 16px;
+			}
+		}
+		span {
+			display: inline-block;
+			padding: 10px 30px;
+			min-width: 70px;
+			max-height: 40px;
+			background-color: #ff4f40;
+			color: #ffffff;
+			font-size: 14px;
+			font-weight: 500;
+			text-transform: uppercase;
+			text-align: center;
+			line-height: -40px;
+			margin-top: 30px;
+			transition: 0.4s all ease-in-out;
+			cursor: default;
+			&:hover {
+				background-color: #ee2917;
+			}
+		}
+	}
+}

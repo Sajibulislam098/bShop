@@ -1,0 +1,33 @@
+.tranding-item {
+	display: flex;
+	// justify-content: start;
+	margin-bottom: 20px;
+	.t-img {
+		height: 50px;
+		width: 50px;
+	}
+
+	.t-img img {
+		height: 100%;
+		width: 100%;
+	}
+	.t-content {
+		margin-left: 10px;
+		font-size: 16px;
+		color: #2b292d;
+		h4 {
+			color: #333;
+			font-size: 14px;
+			font-weight: 400;
+		}
+		h6 {
+			display: block;
+			color: #808080;
+			font-size: 12px;
+			font-weight: 300;
+		}
+		p {
+			color: red;
+		}
+	}
+}

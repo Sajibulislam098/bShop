@@ -1,0 +1,29 @@
+.work-process {
+	padding: 55px 0px;
+	display: flex;
+	justify-content: space-between;
+	.process-card {
+		color: #808080;
+		width: 30%;
+		text-align: center;
+		padding: 25px 15px;
+
+		i {
+			font-size: 34px;
+			margin-bottom: 30px;
+		}
+		h1 {
+			font-size: 28px;
+			line-height: 34px;
+			margin-bottom: 15px;
+			color: #000000;
+			font-weight: 300;
+		}
+		p {
+			font-size: 14px;
+			text-align: center;
+			line-height: 24px;
+			font-weight: 300;
+		}
+	}
+}
